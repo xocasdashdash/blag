@@ -9,7 +9,7 @@
 -->
 <html>
 	<head>
-		<title>Joaquin's personal blag</title>
+		<title>$title$</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
@@ -44,17 +44,24 @@
 							<section id="one">
 								<div class="container">
 									<header class="major">
-										<h2>Joaquin's personal blag</h2>
-										<p>A new year resolution story.<p>
+										<h2>$title$</h2>
+										<p>$subtitle$<p>
 									</header>
-																				<h4 id="blag">blag</h4>
-<p>For the past couple of years I've wanted to start blogging. This is it.</p>
+										$if(toc)$
+											<div id="$idprefix$TOC">
+												$if(toctitle)$
+													<h2 id="$idprefix$toctitle">$toctitle$</h2>
+												$endif$
+											$toc$
+											</div>
+										$endif$
+										$body$
 								</div>
 							</section>
 							<section id="last">
 								<div class="container">
 									<p>
-									
+									$footer$
 									</p>
 									<p>
 									Back to the <a href="../index.html">index</a>.
