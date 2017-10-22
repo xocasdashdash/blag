@@ -6,3 +6,8 @@ subtitle: A new year resolution story.
 
 For the past couple of years
 I've wanted to start blogging. This is it.
+
+
+##### List of articles
+
+- [A Windows Life](./windows_life.html)
