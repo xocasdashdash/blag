@@ -10,4 +10,4 @@ I've wanted to start blogging. This is it.
 
 ##### List of articles
 
-- [A Windows Life](./windows_life.html)
+- [A Windows Life - 22/10/2017](./windows_life.html)
