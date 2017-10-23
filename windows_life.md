@@ -10,7 +10,7 @@ I did have a small netbook with windows 7 on it, worked perfectly as a extremely
 
 So I had a decision to make when I got a new computer this past August, do I go with the comfortable solution, getting a laptop on which I would install a *nix environment or try something new!
 
-Lately I've been following docker/container people ([@kelseyhightower](https://twitter.com/kelseyhightower/),  [@jessfraz](https://twitter.com/jessfraz/) ) and I had been thinking that if most of the users of the code I write are gonna be working with Windows, shouldn't I go through the same pains when setting up something? 
+Lately I've been following docker/container people ([\@kelseyhightower](https://twitter.com/kelseyhightower/) ,  [\@jessfraz](https://twitter.com/jessfraz/) ) and I had been thinking that if most of the users of the code I write are gonna be working with Windows, shouldn't I go through the same pains when setting up something? 
 It really boils down to eating your own dog food and coming down from an Ivory tower so armed with this reasons I decided to get one with Windows and work with it.
 
 
@@ -28,18 +28,19 @@ My current job is basically decimating snowflakes. Snowflakes are, to put it sim
  In business, this lack of documentation or process repeatibility doesn't get tolerated in almost any context but it is in IT (but I believe this is changing). So it's just bad practice to have this happening on the same computer I wanted to use to slay this snowflakes. 
  
  But at this point in time I had everything I needed to fix this situation: 
+
 - [Chocolatey][choco]: It will deal with package mgmt.
 - [Powershell][powershell]: It will let me script all of it in a nice repeatable manner.
 - All the apps I had been toying with: [Wox](http://www.getwox.com/), [jbs](https://johnsad.ventures/software/backgroundswitcher/), Slack, Whatsapp, Atom, Visual Studio Code...
 
 So now that I had everything I needed to set this up, pretty easy to do with [Boxstarter](http://boxstarter.org/). I found out about it after reading this very nice post by Jessie Frazelle on her blog, ["Windows for linux nerds"](https://blog.jessfraz.com/post/windows-for-linux-nerds/#setting-up-a-windows-machine-in-a-reproducible-way). As you can see from the post just setting up a gist with the required packages is enough to get going (I personally still need to learn A LOT about how windows apps interact with the registry). Anyways, I added the choco packages I wanted and with some more powershell script bits it got going.
 
-In this repo: https://github.com/xocasdashdash/personal-configs you can see all the details of the configuration I'm currently running on my laptop with some .vimrc, .gitconfig and some git ignore files that could prove useful to you.  
+In this repo: [\@xocasdashdash/personal-configs](https://github.com/xocasdashdash/personal-configs) you can see all the details of the configuration I'm currently running on my laptop with some .vimrc, .gitconfig and some git ignore files that could prove useful to you.  
 
 
 ### Lessons learned
 
-Well, this trip has helped me understand the way some windows developers I've known work, this has not been an easy project to set up (Still very puzzled by this: https://github.com/mwrock/boxstarter/issues/291) but it has been a really rewarding experience that I'm already applying at my job. A coworker got a new laptop (Macbook) and with a Brewfile install script it had it working in a fairly reasonable state in less than a day. 
+Well, this trip has helped me understand the way some windows developers I've known work, this has not been an easy project to set up (Still very puzzled by this: [mwrock/boxstarter#291](https://github.com/mwrock/boxstarter/issues/291) but it has been a really rewarding experience that I'm already applying at my job. A coworker got a new laptop (Macbook) and with a Brewfile install script it had it working in a fairly reasonable state in less than a day. 
 
 Well, I still need to tune this script to do some more things:
 
