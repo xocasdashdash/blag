@@ -40,7 +40,7 @@ In this repo: [\@xocasdashdash/personal-configs](https://github.com/xocasdashdas
 
 ### Lessons learned
 
-Well, this trip has helped me understand the way some windows developers I've known work, this has not been an easy project to set up (Still very puzzled by this: [mwrock/boxstarter#291](https://github.com/mwrock/boxstarter/issues/291) but it has been a really rewarding experience that I'm already applying at my job. A coworker got a new laptop (Macbook) and with a Brewfile install script it had it working in a fairly reasonable state in less than a day. 
+Well, this trip has helped me understand the way some windows developers I've known work, this has not been an easy project to set up (Still very puzzled by this: [mwrock/boxstarter#291](https://github.com/mwrock/boxstarter/issues/291) but it has been a really rewarding experience that I'm already applying at my job. A coworker ([\@a2rones](https://twitter.com/a2rones) ) got a new laptop (Macbook) and with a Brewfile install script it had it working in a fairly reasonable state in less than a day. 
 
 Well, I still need to tune this script to do some more things:
 
